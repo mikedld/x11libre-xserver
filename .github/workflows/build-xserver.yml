@@ -128,7 +128,7 @@ jobs:
             MESON_ARGS: -Dprefix=/tmp -Dglx=false -Dxnest=false
             X11_PREFIX: /Users/runner/x11
             X11_BUILD_DIR: /Users/runner/build-deps
-        runs-on: macos-latest
+        runs-on: macos-15
         steps:
             - name: Check out repository code
               uses: actions/checkout@v4
